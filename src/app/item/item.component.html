@@ -1,0 +1,9 @@
+<div fxLayout="row">
+  <ng-container *ngFor="let box of boxes">
+<!--    <app-box [box]="box"></app-box>-->
+    <div *ngIf="box.type==='active'" fxFlex="{{box.length}}" class="active">
+      {{box.name}}
+    </div>
+    <div *ngIf="box.type==='inactive'" fxFlex="{{box.length}}"></div>
+  </ng-container>
+</div>
