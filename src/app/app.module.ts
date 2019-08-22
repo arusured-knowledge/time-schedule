@@ -5,14 +5,12 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { ItemComponent } from './item/item.component';
-import { BoxComponent } from './box/box.component';
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
-    BoxComponent,
     HeaderComponent
   ],
   imports: [
